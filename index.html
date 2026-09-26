@@ -1,137 +1,251 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EcoVoyage — Eco-Friendly Travel Booking</title>
-<link rel="stylesheet" href="style.css"/></head>
-<body>
-
-<header class="navbar">
-  <div class="container navbar-inner">
-    <img src="assets/logo.svg" class="logo" alt="EcoVoyage"/>
-    <nav class="nav">
-      <a class='active' href="index.html">Home</a>
-      <a class='' href="destinations.html">Destinations</a>
-      <a class='' href="packages.html">Packages</a>
-      <a class='' href="about.html">About</a>
-      <a class='' href="contact.html">Contact</a>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EcoVoyage | Certified Eco Resorts and Sustainable Travel Packages in India</title>
+<meta name="description" content="Book certified eco resorts and sustainable travel packages in India. Every booking comes with a Green Receipt showing who audited the stay and where each rupee goes.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EcoVoyage">
+<meta property="og:title" content="EcoVoyage | Certified Eco Resorts and Sustainable Travel Packages in India">
+<meta property="og:description" content="Book certified eco resorts and sustainable travel packages in India. Every booking comes with a Green Receipt showing who audited the stay and where each rupee goes.">
+<meta name="theme-color" content="#1F4D3A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Task 7: paste the Google tag (gtag.js) snippet from Google Ads here, directly below this line. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TravelAgency", "name": "EcoVoyage", "slogan": "Proof, not promises", "description": "Certified eco stays and sustainable travel packages in India, with an itemised Green Receipt on every booking.", "areaServed": "IN", "currenciesAccepted": "INR", "logo": "assets/logo.svg"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you verify that a stay is really eco-friendly?", "acceptedAnswer": {"@type": "Answer", "text": "We only list stays certified by an independent body such as GSTC, Green Key or EarthCheck. Every listing names the certifier and the date of the last audit, and we remove stays whose certification lapses."}}, {"@type": "Question", "name": "Is sustainable travel in India more expensive?", "acceptedAnswer": {"@type": "Answer", "text": "Often not. Our Starter Eco Escape in Coorg costs ₹14,900 for two nights with meals, guide and transfer included. The Green Receipt shows every rupee, so you can compare it with any regular booking."}}, {"@type": "Question", "name": "What is a Green Receipt?", "acceptedAnswer": {"@type": "Answer", "text": "An itemised breakdown that comes with every booking. It shows who certified the stay, when it was audited, and how much of your money goes to the host, guides and community."}}, {"@type": "Question", "name": "Is my trip carbon neutral?", "acceptedAnswer": {"@type": "Answer", "text": "No, and we will not claim it is. Travel has a footprint. We show exactly what your booking contributes, such as native saplings or trail restoration, and how that work is tracked."}}, {"@type": "Question", "name": "Can I cancel my booking?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Most stays offer free cancellation up to 14 days before arrival. The exact policy is shown on each package before you pay."}}]}</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="EcoVoyage home">Ec<svg class="seal" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle class="ring" cx="16" cy="16" r="12.5"/><path class="leaf" d="M16 8.5c-4.6 3.8-5.8 8.4-2.6 12.4 1.2 1.4 2.6 2.2 2.6 2.2s1.4-.8 2.6-2.2c3.2-4 2-8.6-2.6-12.4z"/><path class="vein" d="M16 12v10"/></svg>Voyage</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary nav-cta" href="packages.html">Book a trip</a>
     </nav>
-    <a class="btn btn-soft" href="#">Log in</a>
   </div>
 </header>
-
-
+<main id="main">
 <section class="hero">
-  <div class="container hero-grid">
+  <div class="wrap hero-grid">
     <div>
-      <span class="badge">New Marketplace</span>
-      <h1>Book Eco‑Friendly Stays & Carbon‑Offset Journeys</h1>
-      <p>Discover verified eco‑certified hotels, green tours, and transparent, affordable packages. Travel with confidence—no greenwashing.</p>
-      <div style="display:flex;gap:.6rem;margin:.8rem 0 0">
-        <a class="btn btn-primary" href="packages.html">Explore Packages</a>
-        <a class="btn btn-soft" href="destinations.html">Find Destinations</a>
+      <h1>Eco travel you can check, not just believe.</h1>
+      <p class="lead">Every stay on EcoVoyage is independently certified. Every booking comes with a Green Receipt that shows who audited it and where each rupee goes.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="packages.html">See trips and prices</a>
+        <a class="btn btn-quiet" href="destinations.html">Browse certified stays</a>
       </div>
-      <div class="kpi">
-        <div class="item"><div><strong>1,200+</strong> certified stays</div><small class="sub">audited annually</small></div>
-        <div class="item"><div><strong>98%</strong> 5‑star reviews</div><small class="sub">trusted community</small></div>
-        <div class="item"><div><strong>100%</strong> carbon offset</div><small class="sub">opt‑in at checkout</small></div>
+      <p class="trust-line">Free cancellation on most stays. Prices in rupees with taxes included.</p>
+    </div>
+    <article class="receipt" id="receipt-starter" aria-labelledby="rt-starter">
+    <header class="receipt-head">
+      <h2 class="receipt-title" id="rt-starter">Green Receipt</h2>
+      <p class="receipt-meta">Starter Eco Escape, Coorg, 2 nights</p>
+      <p class="receipt-no">Receipt EV-2026-0412</p>
+      <div class="stamp" role="img" aria-label="Verified by Green Key, audited Mar 2026">Verified<strong>Green Key</strong>audited Mar 2026</div>
+    </header>
+    <ul class="receipt-lines">
+      <li><span class="item">Certified homestay, 2 nights<small>Paid to the host family</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹8,400</span></li>
+      <li><span class="item">Local guide and plantation walk<small>Paid directly to the guide</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹2,200</span></li>
+      <li><span class="item">Shared electric transfer<small>Mysuru taxi cooperative</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹1,600</span></li>
+      <li><span class="item">Community fund<small>Village school water filter</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹700</span></li>
+      <li><span class="item">Reforestation contribution<small>5 native saplings, tracked for 3 years</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹500</span></li>
+      <li><span class="item">EcoVoyage fee<small>Platform, audits and support</small></span><span class="leader" aria-hidden="true"></span><span class="amt">₹1,500</span></li>
+    </ul>
+    <div class="receipt-total"><span>Total for one traveller</span><strong>₹14,900</strong></div>
+    <div class="local-share">
+      <div class="bar" aria-hidden="true"><span style="width:87%"></span></div>
+      <p><strong>87%</strong> of this booking stays in Coorg.</p>
+    </div>
+    <p class="receipt-foot">No hidden fees. Taxes included. The price you see is the price you pay.</p>
+  </article>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cert-row">
+    <p>Every stay is audited by one of these independent bodies:</p>
+    <ul><li>GSTC</li><li>Green Key</li><li>EarthCheck</li></ul>
+  </div>
+</div>
+
+<section class="band" aria-labelledby="how">
+  <div class="wrap">
+    <div class="section-intro">
+      <h2 id="how">How booking with proof works</h2>
+      <p>Four steps, and you can check every one of them yourself.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Find a certified stay</h3><p>Filter by region, budget or what matters to you, like solar power or family rooms.</p></li>
+      <li><h3>Check the proof</h3><p>Each listing names its certifier and the date of the last audit. No vague badges.</p></li>
+      <li><h3>Book at a price you can see</h3><p>The Green Receipt itemises the total before you pay. No fees appear at checkout.</p></li>
+      <li><h3>Get your Impact Report</h3><p>After the trip, see what your booking funded, with updates on the projects you supported.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band band-sage" aria-labelledby="featured">
+  <div class="wrap">
+    <div class="section-intro">
+      <h2 id="featured">Certified eco stays across India</h2>
+      <p>From coffee estates in Coorg to solar homestays in Spiti, each one audited in the last twelve months.</p>
+    </div>
+    <div class="stays">
+    <article class="stay" data-tags="hills under5k family">
+      <img src="assets/scene-coorg.svg" alt="Illustration of Coorg, Karnataka" width="400" height="250" loading="lazy">
+      <div class="stay-body">
+        <p class="place">Coorg, Karnataka</p>
+        <h3>Kaapi Estate Homestay</h3>
+        <span class="proof">Green Key certified, audited March 2026</span>
+        <p class="desc">A family-run coffee estate homestay with plantation walks and meals cooked from the garden.</p>
+        <div class="price"><span>from <strong>₹4,200</strong> a night</span><a href="contact.html?stay=Kaapi+Estate+Homestay">Check dates</a></div>
       </div>
+    </article>
+    <article class="stay" data-tags="himalaya solar under5k">
+      <img src="assets/scene-spiti.svg" alt="Illustration of Spiti Valley, Himachal Pradesh" width="400" height="250" loading="lazy">
+      <div class="stay-body">
+        <p class="place">Spiti Valley, Himachal Pradesh</p>
+        <h3>Kaza Solar Homestay</h3>
+        <span class="proof">GSTC certified, audited June 2026</span>
+        <p class="desc">Mud-brick rooms heated by passive solar walls, run by a village cooperative at 3,800 metres.</p>
+        <div class="price"><span>from <strong>₹3,000</strong> a night</span><a href="contact.html?stay=Kaza+Solar+Homestay">Check dates</a></div>
+      </div>
+    </article>
+    <article class="stay" data-tags="water family">
+      <img src="assets/scene-kumarakom.svg" alt="Illustration of Kumarakom, Kerala" width="400" height="250" loading="lazy">
+      <div class="stay-body">
+        <p class="place">Kumarakom, Kerala</p>
+        <h3>Vembanad Backwater House</h3>
+        <span class="proof">EarthCheck certified, audited February 2026</span>
+        <p class="desc">A restored lakeside home with canoe tours led by local fishermen instead of diesel houseboats.</p>
+        <div class="price"><span>from <strong>₹6,800</strong> a night</span><a href="contact.html?stay=Vembanad+Backwater+House">Check dates</a></div>
+      </div>
+    </article>
     </div>
-    <div class="hero-card"><img src="assets/hero1.svg" alt="Eco booking mock"/></div>
+    <div class="btn-row"><a class="btn btn-quiet" href="destinations.html">See all six destinations</a></div>
   </div>
 </section>
 
-<div class="container logos"><span>Rainforest Alliance</span><span>GSTC</span><span>Green Key</span><span>EarthCheck</span><span>B Corp</span></div>
-
-<section class="section container">
-  <h2>Featured Destinations</h2>
-  <p class="sub">Hand‑picked eco‑friendly spots with visible certifications and verified reviews.</p>
-  <div class="filters">
-    <span class="filter-pill">Solar-powered</span><span class="filter-pill">Plastic‑free</span>
-    <span class="filter-pill">Eco‑Certified</span><span class="filter-pill">Under $150/night</span><span class="filter-pill">Family‑friendly</span>
-  </div>
-  <div class="grid-4" style="margin-top:.6rem">
-    <div class="card dest-card"><img src="https://www.holidify.com/images/bgImages/BALI.jpg"/><div class="dest-meta"><span>Bali, Indonesia</span><span class="tag">GSTC</span></div><p>Beach eco‑retreats with reef‑safe tours and local community support.</p></div>
-    <div class="card dest-card"><img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/cswglxpstphljdourpfu.jpg"/><div class="dest-meta"><span>Chiang Mai, Thailand</span><span class="tag">Green Key</span></div><p>Mountain lodges powered by solar with ethical elephant sanctuaries.</p></div>
-    <div class="card dest-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkO4QYh0QqLLfpbTEmHNrmPm-lgMlzoeOKMQ&s"/><div class="dest-meta"><span>Azores, Portugal</span><span class="tag">B Corp</span></div><p>Volcanic islands with zero‑waste practices and slow‑travel routes.</p></div>
-    <div class="card dest-card"><img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/542000/542607-singapore.jpg"/><div class="dest-meta"><span>Singapore, Singapore</span><span class="tag">EarthCheck</span></div><p>Forest retreats, farm‑to‑table dining, and guided nature treks.</p></div>
-    <div class="card dest-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj15Nw8D4Xgwgdx4Jaas7VlxBZvGlxkZdq8Q&s"/><div class="dest-meta"><span>Ubud, Indonesia</span><span class="tag">EarthCheck</span></div><p>Forest retreats, farm‑to‑table dining, and guided nature treks.</p></div>
-    <div class="card dest-card"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cf/69/07/sydney-harbour.jpg?w=900&h=500&s=1"/><div class="dest-meta"><span>Sydney, Australia</span><span class="tag">EarthCheck</span></div><p>Forest retreats, farm‑to‑table dining, and guided nature treks.</p></div>
-    <div class="card dest-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauNm9ElEAyMLarlK45JdemxchwhBwIw6RJg&s"/><div class="dest-meta"><span>Kotor, Montenegro</span><span class="tag">EarthCheck</span></div><p>Forest retreats, farm‑to‑table dining, and guided nature treks.</p></div>
-    <div class="card dest-card"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/ac/a0/69/paris-las-vegas.jpg?w=500&h=400&s=1"/><div class="dest-meta"><span>Las Vegas, USA</span><span class="tag">EarthCheck</span></div><p>Forest retreats, farm‑to‑table dining, and guided nature treks.</p></div>
-  </div>
-</section>
-
-<section class="section container">
-  <h2>Popular Packages</h2>
-  <p class="sub">Transparent pricing. Carbon‑offset included. No hidden fees.</p>
-  <div class="grid-3" style="margin-top:.6rem">
-    <div class="card"><h3>Starter Eco Escape</h3><div class="price">$399</div><p>3‑day city escape</p>
-      <div class="bullet">2 nights eco‑hotel (certified)</div>
-      <div class="bullet">Airport transfer (EV)</div>
-      <div class="bullet">Carbon offset included</div>
-      <a class="btn btn-primary" href="packages.html" style="margin-top:.6rem">View details</a>
+<section class="band" aria-labelledby="trips">
+  <div class="wrap">
+    <div class="section-intro">
+      <h2 id="trips">Sustainable travel packages, priced in full</h2>
+      <p>Stay, guide, transport and community contribution in one price. Open any Green Receipt to see the split.</p>
     </div>
-    <div class="card"><h3>Adventure & Nature</h3><div class="price">$899</div><p>6‑day eco tour</p>
-      <div class="bullet">Eco‑lodge + guided hikes</div>
-      <div class="bullet">Local conservation project visit</div>
-      <div class="bullet">Plastic‑free kit</div>
-      <a class="btn btn-primary" href="packages.html" style="margin-top:.6rem">View details</a>
-    </div>
-    <div class="card"><h3>Slow Travel Retreat</h3><div class="price">$1499</div><p>10‑day mindful journey</p>
-      <div class="bullet">Farm‑to‑table experiences</div>
-      <div class="bullet">Rail passes & community tours</div>
-      <div class="bullet">100% offset + audit</div>
-      <a class="btn btn-primary" href="packages.html" style="margin-top:.6rem">View details</a>
+    <div class="packages">
+    <article class="package">
+      <h3>Starter Eco Escape</h3>
+      <p class="where">Coorg, Karnataka, 2 nights</p>
+      <span class="proof">Green Key certified, audited Mar 2026</span>
+      <p class="cost">₹14,900 <small>per traveller, all in</small></p>
+      <ul><li>2 nights at a certified coffee-estate homestay</li><li>Guided plantation and birding walk</li><li>Shared electric transfer from Mysuru</li><li>All meals from the estate kitchen</li></ul>
+      <div class="actions">
+        <a class="btn btn-primary" href="contact.html?package=starter">Book this trip</a>
+        <a class="btn btn-quiet" href="packages.html#receipt-starter" data-show-receipt="starter">See the Green Receipt</a>
+      </div>
+    </article>
+    <article class="package">
+      <h3>Adventure and Nature</h3>
+      <p class="where">Spiti Valley, Himachal Pradesh, 5 nights</p>
+      <span class="proof">GSTC certified, audited Jun 2026</span>
+      <p class="cost">₹32,500 <small>per traveller, all in</small></p>
+      <ul><li>5 nights in solar-heated village homestays</li><li>Guided treks and permits</li><li>Shared transfer from Manali</li><li>Trail clean-up morning with locals</li></ul>
+      <div class="actions">
+        <a class="btn btn-primary" href="contact.html?package=adventure">Book this trip</a>
+        <a class="btn btn-quiet" href="packages.html#receipt-adventure" data-show-receipt="adventure">See the Green Receipt</a>
+      </div>
+    </article>
+    <article class="package">
+      <h3>Slow Travel Retreat</h3>
+      <p class="where">Kumarakom and Wayanad, Kerala, 8 nights</p>
+      <span class="proof">EarthCheck certified, audited Feb 2026</span>
+      <p class="cost">₹58,000 <small>per traveller, all in</small></p>
+      <ul><li>8 nights across a backwater home and a farm stay</li><li>Rail passes and local transport</li><li>Community-led fishing and spice-farm days</li><li>Farm-to-table meals</li></ul>
+      <div class="actions">
+        <a class="btn btn-primary" href="contact.html?package=slow">Book this trip</a>
+        <a class="btn btn-quiet" href="packages.html#receipt-slow" data-show-receipt="slow">See the Green Receipt</a>
+      </div>
+    </article>
     </div>
   </div>
 </section>
 
-<section class="section tst">
-  <div class="container">
-    <h2>Real Travelers. Real Impact.</h2>
-    <p class="sub">Authentic reviews with visible certifications on every listing.</p>
-    <div class="tst-grid" style="margin-top:.6rem">
-      <article class="tcard"><div class="name">Emma L. <span class="stars">★★★★★</span></div><p>“Loved the transparency. Certifications were clear, and the EV transfer was a nice touch.”</p></article>
-      <article class="tcard"><div class="name">Jonas K. <span class="stars">★★★★★</span></div><p>“Affordable eco‑options finally! The Starter package was perfect for a weekend.”</p></article>
-      <article class="tcard"><div class="name">Maya P. <span class="stars">★★★★☆</span></div><p>“Amazing support and easy booking. Carbon offset details were visible at checkout.”</p></article>
+<section class="band band-sage" aria-labelledby="reviews">
+  <div class="wrap">
+    <div class="section-intro"><h2 id="reviews">What travellers checked, and what they found</h2></div>
+    <div class="reviews">
+      <figure class="review"><blockquote>I could see the Green Key audit date before I paid. First time an eco label actually meant something to me.</blockquote><figcaption>Ananya R., Bengaluru. Stayed in Coorg.</figcaption></figure>
+      <figure class="review"><blockquote>The receipt showed 88% of the money stayed with Spiti families. It cost less than the resort I was comparing.</blockquote><figcaption>Rohan M., Pune. Stayed in Spiti Valley.</figcaption></figure>
+      <figure class="review"><blockquote>No surprise fees at checkout. What the package page said was exactly what I paid.</blockquote><figcaption>Priya S., Mumbai. Stayed in Kumarakom.</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="section container">
-  <div class="news">
-    <div><h3>Get weekly eco‑travel tips & deals</h3><p class="sub">Be the first to know about new certified stays and carbon‑neutral routes.</p></div>
-    <div style="display:flex;gap:.5rem"><input placeholder="Your email"/><button class="btn btn-primary">Subscribe</button></div>
+<section class="band" aria-labelledby="faq">
+  <div class="wrap">
+    <div class="section-intro"><h2 id="faq">Questions people ask before booking</h2></div>
+    <div class="faq">
+    <details><summary>How do you verify that a stay is really eco-friendly?</summary><p>We only list stays certified by an independent body such as GSTC, Green Key or EarthCheck. Every listing names the certifier and the date of the last audit, and we remove stays whose certification lapses.</p></details>
+    <details><summary>Is sustainable travel in India more expensive?</summary><p>Often not. Our Starter Eco Escape in Coorg costs ₹14,900 for two nights with meals, guide and transfer included. The Green Receipt shows every rupee, so you can compare it with any regular booking.</p></details>
+    <details><summary>What is a Green Receipt?</summary><p>An itemised breakdown that comes with every booking. It shows who certified the stay, when it was audited, and how much of your money goes to the host, guides and community.</p></details>
+    <details><summary>Is my trip carbon neutral?</summary><p>No, and we will not claim it is. Travel has a footprint. We show exactly what your booking contributes, such as native saplings or trail restoration, and how that work is tracked.</p></details>
+    <details><summary>Can I cancel my booking?</summary><p>Yes. Most stays offer free cancellation up to 14 days before arrival. The exact policy is shown on each package before you pay.</p></details>
+    </div>
   </div>
 </section>
 
-<section class="section container">
-  <h2>FAQs</h2>
-  <div class="grid-3">
-    <div class="faq-item"><div class="faq-q">How do you verify certifications?</div><p>We list only third‑party audited certifications (GSTC, Green Key, EarthCheck, etc.) and show the source on each listing.</p></div>
-    <div class="faq-item"><div class="faq-q">Is eco‑travel more expensive?</div><p>Not necessarily. Our Starter packages are priced competitively with transparent fees and options to offset carbon at checkout.</p></div>
-    <div class="faq-item"><div class="faq-q">Do you offset all trips?</div><p>Every package shows the included offset and project details. You can add extra offsets or choose verified projects.</p></div>
+<section aria-labelledby="letters">
+  <div class="wrap">
+    <div class="signup">
+      <div>
+        <h2 id="letters">One certified stay a week, in your inbox</h2>
+        <p>A newly audited stay, its Green Receipt and one practical tip for travelling lighter. Unsubscribe any time.</p>
+      </div>
+      <form name="newsletter" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company">
+        <input type="hidden" name="form-name" value="newsletter">
+        <p class="hp"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></p>
+        <label for="nl-email">Email address</label>
+        <input id="nl-email" type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
   </div>
 </section>
-
-
-<footer class="footer">
-  <div class="container footer-inner">
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
     <div>
-      <img src="assets/logo.svg" class="logo" alt="EcoVoyage"/>
-      <p style="color:#b9d6c0;max-width:460px">EcoVoyage connects travelers to eco‑certified stays and tours, with transparent pricing and carbon‑offset options.</p>
-      <div style="display:flex;gap:.5rem;margin-top:.5rem">
-        <a href="#" class="btn-soft" style="border-radius:50%;width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center">X</a>
-        <a href="#" class="btn-soft" style="border-radius:50%;width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center">in</a>
-        <a href="#" class="btn-soft" style="border-radius:50%;width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center">▶</a>
-      </div>
+      <a class="brand" href="index.html" aria-label="EcoVoyage home">Ec<svg class="seal" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle class="ring" cx="16" cy="16" r="12.5"/><path class="leaf" d="M16 8.5c-4.6 3.8-5.8 8.4-2.6 12.4 1.2 1.4 2.6 2.2 2.6 2.2s1.4-.8 2.6-2.2c3.2-4 2-8.6-2.6-12.4z"/><path class="vein" d="M16 12v10"/></svg>Voyage</a>
+      <p style="margin-top:1rem">Certified eco stays and sustainable travel packages in India, with a Green Receipt on every booking.</p>
+      <p><em>Proof, not promises.</em></p>
     </div>
-    <div class="footer-links">
-      <div><h4>Explore</h4><a href="destinations.html">Destinations</a><br><a href="packages.html">Packages</a><br><a href="#">Blog</a></div>
-      <div><h4>Company</h4><a href="about.html">About Us</a><br><a href="contact.html">Contact</a><br><a href="#">Careers</a></div>
-      <div><h4>Support</h4><a href="#">FAQ</a><br><a href="#">Privacy</a><br><a href="#">Terms</a></div>
+    <div>
+      <h2>Travel</h2>
+      <ul><li><a href="destinations.html">Destinations</a></li><li><a href="packages.html">Packages</a></li><li><a href="packages.html#receipt-starter">Green Receipt</a></li></ul>
+    </div>
+    <div>
+      <h2>EcoVoyage</h2>
+      <ul><li><a href="about.html">About us</a></li><li><a href="about.html#certifications">How we verify</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <div>
+      <h2>Follow</h2>
+      <ul><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li><li><a href="#">Pinterest</a></li><li><a href="#">LinkedIn</a></li></ul>
     </div>
   </div>
-  <div class="container copy">© 2025 EcoVoyage. All rights reserved.</div>
+  <div class="wrap footer-note">
+    <p>&copy; 2026 EcoVoyage. Prices in Indian rupees and include all taxes and fees.</p>
+    <p>EcoVoyage is a concept brand created for an AI-Powered Digital Marketing capstone project. Stays, reviews, audit dates and prices shown are illustrative.</p>
+  </div>
 </footer>
-
-</body></html>
+<script src="script.js"></script>
+</body>
+</html>

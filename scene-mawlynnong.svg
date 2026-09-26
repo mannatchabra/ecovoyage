@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice"><title>Rainforest near Mawlynnong, Meghalaya</title>
+<rect width="400" height="250" fill="#DCE7DF"/>
+<g fill="#8FB39B"><ellipse cx="60" cy="120" rx="60" ry="55"/><ellipse cx="200" cy="105" rx="75" ry="60"/><ellipse cx="340" cy="120" rx="70" ry="58"/></g>
+<rect y="130" width="400" height="16" fill="#FFFFFF" opacity=".55"/>
+<g fill="#4E8465"><ellipse cx="120" cy="165" rx="70" ry="55"/><ellipse cx="280" cy="160" rx="80" ry="58"/></g>
+<rect y="170" width="400" height="12" fill="#FFFFFF" opacity=".45"/>
+<path d="M0 205 Q100 185 200 205 T400 200 V250 H0Z" fill="#2B5A43"/>
+<path d="M120 222 C170 190 230 190 280 222" stroke="#8C6A45" stroke-width="6" fill="none"/>
+<g stroke="#8C6A45" stroke-width="2"><path d="M140 212 v12"/><path d="M170 202 v16"/><path d="M200 198 v18"/><path d="M230 202 v16"/><path d="M260 212 v12"/></g></svg>
