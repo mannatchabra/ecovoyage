@@ -1,6 +1,4 @@
-<svg width="140" height="30" viewBox="0 0 140 30" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="30" height="30" rx="8" fill="#2E7D32"/>
-  <path d="M8 17l4 4 8-10" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="23" cy="7" r="3" fill="#00A47A"/>
-  <text x="40" y="21" font-family="Inter, Arial" font-size="16" font-weight="700" fill="#0f172a">EcoVoyage</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 40" role="img" aria-label="EcoVoyage"><title>EcoVoyage</title>
+<text x="0" y="29" font-family="Fraunces, Georgia, serif" font-size="28" font-weight="600" fill="#1F4D3A">Ec</text>
+<g transform="translate(35 8)"><circle cx="12" cy="12" r="10" fill="none" stroke="#B8862B" stroke-width="2.4"/><path d="M12 5.5c-3.8 3.2-4.8 7-2.2 10.3 1 1.2 2.2 1.8 2.2 1.8s1.2-.6 2.2-1.8c2.6-3.3 1.6-7.1-2.2-10.3z" fill="#1F4D3A"/></g>
+<text x="60" y="29" font-family="Fraunces, Georgia, serif" font-size="28" font-weight="600" fill="#1F4D3A">Voyage</text></svg>

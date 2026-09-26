@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice"><title>Coffee-covered hills in Coorg</title>
+<rect width="400" height="250" fill="#E3ECE4"/><circle cx="300" cy="70" r="26" fill="#F2EBD6"/>
+<path d="M0 130 Q70 80 140 120 T280 105 T400 115 V250 H0Z" fill="#A9C4B0"/>
+<path d="M0 165 Q90 110 190 150 T400 140 V250 H0Z" fill="#6E9C7E"/>
+<path d="M0 200 Q110 150 230 190 T400 180 V250 H0Z" fill="#3F7157"/>
+<g stroke="#2B5A43" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"><path d="M20 222 Q120 180 240 212"/><path d="M40 236 Q140 196 260 228"/><path d="M200 214 Q300 180 390 200"/><path d="M230 232 Q320 200 400 218"/></g>
+<g fill="#1F4D3A"><path d="M60 175 l8 -40 8 40z"/><path d="M340 160 l7 -34 7 34z"/></g></svg>

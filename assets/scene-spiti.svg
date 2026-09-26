@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice"><title>High desert mountains of Spiti Valley</title>
+<rect width="400" height="250" fill="#E2EAEE"/>
+<path d="M0 150 L70 60 L120 120 L190 40 L260 125 L320 70 L400 140 V250 H0Z" fill="#B7C3C4"/>
+<g fill="#FFFFFF"><path d="M70 60 L55 80 L68 76 L78 86 L88 76Z"/><path d="M190 40 L170 66 L186 60 L196 72 L210 62Z"/><path d="M320 70 L306 88 L318 84 L328 92 L336 84Z"/></g>
+<path d="M0 170 Q100 130 200 165 T400 155 V250 H0Z" fill="#C9B593"/>
+<path d="M0 205 Q120 175 240 200 T400 195 V250 H0Z" fill="#A89371"/>
+<path d="M-10 240 Q120 205 200 222 T410 210" stroke="#8EB7C2" stroke-width="7" fill="none"/>
+<g fill="#F4F1E8" stroke="#6D5B44" stroke-width="1.5"><rect x="250" y="178" width="26" height="16"/><rect x="282" y="182" width="20" height="12"/></g></svg>

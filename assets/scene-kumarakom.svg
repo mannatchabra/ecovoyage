@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice"><title>Backwaters at Kumarakom, Kerala</title>
+<rect width="400" height="250" fill="#EDF2E6"/><circle cx="90" cy="80" r="24" fill="#F2EBD6"/>
+<rect y="150" width="400" height="100" fill="#9CC3B8"/>
+<path d="M0 150 Q100 140 200 150 T400 148 V160 H0Z" fill="#3F7157"/>
+<g stroke="#EAF3EF" stroke-width="2" stroke-linecap="round" opacity=".8"><path d="M40 190 H110"/><path d="M160 210 H250"/><path d="M280 185 H350"/><path d="M60 230 H140"/></g>
+<g stroke="#2B5A43" stroke-width="5" fill="none" stroke-linecap="round"><path d="M300 152 Q296 110 310 70"/><path d="M345 152 Q350 115 338 85"/></g>
+<g fill="#1F4D3A"><path d="M310 70 q-30 0 -44 16 q24 -8 44 -4z"/><path d="M310 70 q30 -6 46 8 q-26 -2 -46 2z"/><path d="M310 70 q-10 -24 -30 -30 q16 14 30 30z"/><path d="M338 85 q-26 -2 -38 12 q20 -6 38 -4z"/><path d="M338 85 q26 -4 40 10 q-22 -4 -40 0z"/></g>
+<path d="M120 172 h110 l-14 16 h-82z" fill="#6B4F33"/><path d="M140 172 q35 -26 70 0z" fill="#C8B28A"/></svg>
