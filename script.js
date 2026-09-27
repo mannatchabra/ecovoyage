@@ -74,3 +74,38 @@ document.documentElement.classList.add('js');
     form.elements['message'].value = 'I would like to check availability at ' + stay + '.';
   }
 })();
+
+// Scroll reveal
+(function () {
+  var els = document.querySelectorAll('.reveal, .steps');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.18, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+
+// Hero 3D tilt follows the pointer (desktop only, respects reduced motion)
+(function () {
+  var hero = document.querySelector('.hero');
+  var rig = document.querySelector('.rig');
+  if (!hero || !rig) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!window.matchMedia('(hover: hover) and (min-width: 901px)').matches) return;
+  var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
+  function loop() {
+    cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+    rig.style.setProperty('--rx', cy.toFixed(2) + 'deg');
+    rig.style.setProperty('--ry', cx.toFixed(2) + 'deg');
+    raf = (Math.abs(tx - cx) > 0.01 || Math.abs(ty - cy) > 0.01) ? requestAnimationFrame(loop) : null;
+  }
+  hero.addEventListener('pointermove', function (e) {
+    var r = hero.getBoundingClientRect();
+    tx = ((e.clientX - r.left) / r.width - 0.5) * 18;
+    ty = -((e.clientY - r.top) / r.height - 0.5) * 12;
+    if (!raf) raf = requestAnimationFrame(loop);
+  });
+  hero.addEventListener('pointerleave', function () { tx = 0; ty = 0; if (!raf) raf = requestAnimationFrame(loop); });
+})();
